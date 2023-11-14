@@ -27,6 +27,6 @@ resp = conv(ent,sai) # str
 r = float(resp)
 col2.write('x '+str(resp))
 nc = col3.number_input('Casas decimais', value = 3)
-st.write('Valor convertido: '+ str(np.round(r*val,nc))+' '+sai)
+st.subheader('Valor convertido: '+ str(np.round(r*val,nc))+' '+sai)
 
     
